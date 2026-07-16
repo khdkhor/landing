@@ -12,12 +12,17 @@ header{
     padding-top: 0;
     display: flex;
     direction: rtl;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:10px;
 }
 ul{
     display: flex;
-    gap: 2vw;
+    flex-wrap:wrap;
+    gap: 15px;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: center;
+    padding: 0;
 }
 li a{
     color: #000000;
@@ -96,6 +101,10 @@ h1:hover{
     padding:0 10px 0 10px;
     display: flex;
     direction: rtl;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction:column;
 }
 .us{
      text-align: center;
@@ -112,6 +121,7 @@ h1:hover{
     background-color: rgb(181, 198, 255);
     margin: 0 10px 25px 10px;
     padding:25px;
-    display: flex;
+    flex-direction:column;
+    gap:15px;
     direction: rtl;
 }
