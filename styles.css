@@ -52,8 +52,11 @@ h1:hover{
     text-align: center;
 }
 .welcome-photo{
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     transition: 1.9s;
 }
 .welcome-photo:hover{
@@ -62,7 +65,11 @@ h1:hover{
 }
 
 
-
+.welcome-container{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
 
 .product-grid {
     display: grid;
@@ -127,3 +134,16 @@ h1:hover{
 }
 /* test */
 /* test */
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+
+    h1{
+        margin: 10px 0;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+}
